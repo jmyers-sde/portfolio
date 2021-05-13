@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5a59368bf3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/png" href="./assets/Apps-Development-icon.png">
+    <title>Justin Myers</title>
+</head>
+
+<body>
+    <nav id="topNav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mx-0 pb-0">
+        <a href="#cover">
+            <p class="navbar-brand myBrand"><img class="img-fluid img-thumbnail rounded" src="./assets/IMG_3434.jpeg">
+                Justin Myers</p>
+        </a><!-- Nav Bar Brand that does not go anywhere -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button><!-- Button for menu when screen is smaller -->
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About</a>
+
+                <a class="nav-item nav-link infoTag" href="#skills">Skills</a>
+
+                <a class="nav-item nav-link infoTag" href="#portfolio">Portfolio</a>
+
+                <a class="nav-item nav-link infoTag" href="#contact">Contact</a>
+            </div><!-- Menu in Navbar -->
+        </div><!-- Container for the links inside the navbar -->
+    </nav><!-- Collapsible Nav bar for home page -->
+
+    <!-- Cover With My Name -->
+    <div id="cover" class="text-center ">
+        <h1 class="display-1 text-warning"><b>Justin Myers</b></h1>
+        <p class="display-4 text-warning">Jr Full Stack <br> Web Developer</p>
+    </div>
+
+    <!-- About me -->
+    <div id="container" class="text-center py-5 px-3">
+        <h1 id="about" class="display-3">Profile</h1>
+        <hr class="w-50 mx-auto">
+
+        <div class="d-flex">
+            <div class="card border border-dark px-1">
+                <img class="card-img-top" src="./assets/0311171345.jpg" alt="Card image">
+                <div class="card-body text-center bg-dark">
+                    <h4 class="card-title">Justin Myers</h4>
+                    <p class="card-text">Jr Fullstack Developer</p>
+                </div>
+            </div>
+
+            <div class="w-75 px-4 my-auto">
+                <h1><u>Intro</u></h1>
+                <h4>My name is Justin Myers. I am a Junior Fullstack Web Developer.</h4>
+                <p>I am currently in Eleven Fifty Academy Bootcamp. I have graduated from The Last Mile Coding Bootcamp.
+                </p>
+
+                <hr class="w-50 mx-auto">
+
+                <p class="text-left">I am a returned citizen aspiring to become the best coder I can. I am passionate
+                    about web development and have built a few projects. I have bult Fullstack projects as well as just
+                    front end. Technologies and tools im proficient include: HTML, CSS, JavaScript, Bootstrap, JQuery,
+                    NodeJS & Express, MongoDB, Mongoose, Firbase and others to name a few. I am currently working a
+                    full-time job in Manufacturing and attending school. I am in the process of transitioning from a job
+                    to a career.</p>
+
+                <p>If your interested: <a
+                        href="https://drive.google.com/file/d/1cwQ4vKfP1_0m6kKEVpbY0omcKsCU-5AO/view?usp=sharing">My
+                        Resume</a></p>
+            </div>
+        </div>
+
+        <hr class="w-50 mx-auto mt-5">
+
+        <!-- My Skills -->
+        <h1 id="skills" class="pt-5 pb-3 my-5 display-3"><u>Skills</u></h1>
+
+        <div class="pb-5">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-bootstrap"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-node"></i>
+            <i class="fab fa-git"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-npm"></i>
+        </div>
+
+        <hr class="w-50 mx-auto mt-5">
+
+        <!-- My Projects -->
+        <h1 id="portfolio" class="pt-5 display-3"><u>Portfolio</u></h1>
+        <h4 class="pb-5 pt-2">Here are some of my projects...</h4>
+
+        <div id="portfolioLinks" class="d-flex flex-wrap justify-content-around align-items-center">
+            <a href="https://codepen.io/jmyers-sde/pen/bGgEoqE?editors=1100" data-toggle="tooltip"
+                title="CSS Creature (ElevenFifty)"><img src="./assets/websnappr20210325-15128-wsyguj.jpg"
+                    alt="css creature" class="img-fluid"></a>
+
+            <a href="https://jmyers-sde.github.io/staticsite/" data-toggle="tooltip"
+                title="Static Website (ElevenFifty)"><img src="./assets/websnappr20210429-49485-ohokyo.jpg"
+                    alt="static website" class="img-fluid"></a>
+
+            <a href="https://jmyers-sde.github.io/api1/" data-toggle="tooltip" title="API 1 (ElevenFifty)"><img
+                    src="./assets/websnappr20210504-33687-11pnnqk.jpg" alt="api 1" class="img-fluid"></a>
+
+            <a href="https://api2-7c6fb.web.app/" data-toggle="tooltip" title="API 2 (ElevenFifty)"><img
+                    src="./assets/websnappr20210512-169038-nvmorh.jpg" alt="api 2" class="img-fluid"></a>
+
+            <a href="https://jmyers-sde.github.io/slotGame" data-toggle="tooltip"
+                title="Slot Machine Social Site Demo (The Last Mile 'Prison')"><img src="./assets/slots.png" alt="slots"
+                    class="img-fluid"></a>
+        </div>
+
+        <hr class="w-50 mx-auto mt-5">
+
+        <!-- Contact Me -->
+        <h1 id="contact" class="py-5 display-3"><u>Contact</u></h1>
+
+        <form action="https://formspree.io/f/mjvjywrg" method="POST" class="w-75 mx-auto">
+            <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name*">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="email" id="email" class="form-control" placeholder="Email*">
+            </div>
+
+            <div class="form-group">
+                <textarea name="message" id="message" class="form-control" placeholder="Message*"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <!-- Footer with copyright and links to my linkIn and GitHub -->
+    <nav id="nvBottom" class="navbar navbar-expand bg-dark navbar-dark justify-content-center">
+        <div class="navbar-nav ">
+            <p class="nav-item nav-link disabled fa fa-copyright pb-0"> 2021 - Justin Myers</p>
+        </div>
+        <a href="https://www.linkedin.com/in/justin-myers-32213ssm/" class="fab fa-linkedin"></a>
+
+        <a href="https://github.com/jmyers-sde" class="fab fa-github-square"></a>
+    </nav>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

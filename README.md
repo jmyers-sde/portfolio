@@ -1,0 +1,1 @@
+This is an experimental portfolio that shows some of my work and education during the infancy of my career. I will be working on this to make it more presentable or I amy just make a new one. This can be viewed and is active.
